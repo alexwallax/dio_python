@@ -17,18 +17,21 @@ class Televisao:
         if self.ligada:
             self.canal -= 1
 
-# instanciar
-televisao = Televisao()
-print('Televisão está ligada: {}'.format(televisao.ligada))
-televisao.power() # ligando a tv
-print('Televisão está ligada: {}'.format(televisao.ligada))
-televisao.power() # desligando a tv
-print('Televisão está ligada: {}'.format(televisao.ligada))
-print('Canal: {}'.format(televisao.canal))
-televisao.power() # ligando a tv
-print('Televisão está ligada: {}'.format(televisao.ligada))
-televisao.aumanta_canal() # aumentando o canal
-televisao.aumanta_canal() # aumentando o canal
-print('Canal: {}'.format(televisao.canal))
-televisao.diminue_canal() # diminuindo o canal
-print('Canal: {}'.format(televisao.canal))
+
+
+if __name__ == '__main__':
+    # instanciar
+    televisao = Televisao()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    televisao.power() # ligando a tv
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    televisao.power() # desligando a tv
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    print('Canal: {}'.format(televisao.canal))
+    televisao.power() # ligando a tv
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    televisao.aumanta_canal() # aumentando o canal
+    televisao.aumanta_canal() # aumentando o canal
+    print('Canal: {}'.format(televisao.canal))
+    televisao.diminue_canal() # diminuindo o canal
+    print('Canal: {}'.format(televisao.canal))
