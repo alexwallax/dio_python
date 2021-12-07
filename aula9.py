@@ -70,4 +70,4 @@ if __name__ == '__main__':
     # aluno = '\nMaria,10,9,10,6\n'
 
     # atualizar_arquivo('notas.txt', aluno)
-    # ler_arquivo('teste.txt')
+    ler_arquivo('teste.txt')
